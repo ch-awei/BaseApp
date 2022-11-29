@@ -1,0 +1,34 @@
+{
+    "easycom": { "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue" },
+    "pages": [
+        {
+            "path": "pages/index/index",
+            "style": {
+                // 隐藏系统导航栏, 使用uView自定义导航栏[https://www.uviewui.com/components/navbar.html]
+                "navigationStyle": "custom" 
+            }
+        },
+        { "path": "pages/home/index" },
+        { "path": "pages/me/index" },
+        { "path": "pages/me/detail" }
+    ],
+    "globalStyle": {
+        "navigationBarTitleText": "BaseApp",
+        "navigationBarTextStyle": "black", // 状态栏字体
+        "navigationBarBackgroundColor": "#ffffff"
+    },
+    "tabBar": {
+        "list": [{
+            "pagePath": "pages/home/index",
+            "iconPath": "static/tabBar/home.png",
+            "selectedIconPath": "static/tabBar/homeselect.png",
+            "text": "首页"
+        }, {
+            "pagePath": "pages/me/index",
+            "iconPath": "static/tabBar/me.png",
+            "selectedIconPath": "static/tabBar/meselect.png",
+            "text": "我的"
+        }]
+    },
+    "uniIdRouter": {}
+}
