@@ -1,5 +1,5 @@
 {
-  "name": "baseapp",
+  "name": "BaseApp",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "jsencrypt": "^3.3.1",
-    "uview-ui": "^2.0.34"
+    "uview-ui": "^2.0.37"
   }
 }

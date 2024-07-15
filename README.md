@@ -1,27 +1,22 @@
-# 移动APP基础框架
+# 移动 APP 基础框架
+
+**`uni-app` + `uview-ui`**
+
+打包前需要先配置 **manifest.json**，特别是**AppID**
+
+生成证书：`keytool -genkey -alias baseapp -keyalg RSA -keysize 2048 -validity 365 -keystore baseapp.keystore`
 
 ## 目录结构
-- components <br>
-    自定义组件 (推荐使用同名文件夹, 即可全局使用)
-- libs <br>
-    一些工具
-- node_modules <br>
-    依赖
-- pages <br>
-    存放页面文件
-- static <br>
-    静态文件, 如图片等
-- store <br>
-    vuex 全局状态管理
-- unpackage <br>
-    打包生成文件
-- App.vue <br>
-    主页面入口
-- main.js <br>
-    主程序入口
-- package.json <br>
-    依赖配置 <br>
-- pages.json <br>
-    页面配置文件
-- uni.scss <br>
-    全局样式
+
+- components : 自定义组件
+- libs : 一些工具
+- pages : 存放页面文件
+- static : 静态文件, 如图片等
+- store : vuex 全局状态管理
+- App.vue : 主页面入口
+- configs.js : 配置文件
+- main.js : 主程序入口
+- manifest.json : 打包配置
+- package.json : 依赖配置
+- pages.json : 页面配置文件
+- uni.scss : 全局样式

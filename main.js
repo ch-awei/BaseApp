@@ -1,5 +1,6 @@
 import App from './App'
-import '@/libs/http/env.js' // 运行环境
+
+// import '@/libs/style/index.scss' // 没用，组件还是得引入才能用
 
 // #ifndef VUE3
 import Vue from 'vue'

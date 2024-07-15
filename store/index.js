@@ -6,5 +6,5 @@ import user from './modules/user.js'
 
 Vue.use(Vuex)
 export default new Vuex.Store({
-    modules: { app, user }
+  modules: { app, user }
 })
